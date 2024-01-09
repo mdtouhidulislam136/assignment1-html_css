@@ -8,21 +8,24 @@ a {
   color: white;
 }
 
+
 /* header style */
+
+
 .header-container {
-  color: white;
-  text-align: center;
-  background-image: url(./resources/Banner\ Image.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 350px;
-  background-position: center;
-  border-radius: 16px;
+text-align: center;
+ margin-top: 50px;
+}
+
+.header-container img{
+width: 1130px;
 }
 
 .header-items {
-  margin: 40px;
-  padding: 90px;
+  position: relative;
+  margin-top: -300px;
+  color: white;
+ 
 }
 
 .header-title {
@@ -31,11 +34,14 @@ a {
 
 .header-description {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 /* sale section style */
 
+.sale-section{
+    margin-top: 250px;
+}
 .sale-details {
   text-align: center;
 }
@@ -70,29 +76,28 @@ a {
 .welcome-section {
   background-image: url(resources/Vectorrr.png);
   background-repeat: no-repeat;
-  display: flex;
   background-size: contain;
-  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
   background-position: center;
-  border-radius: 16px;
   margin-top: 50px;
 }
 
 .welcome-text {
   color: white;
-  margin: 20px 126px;
+  margin-left: 250px ;
+  width: 50%;
+  
 }
 
 .welcome-year {
   margin-top: 40px;
-  margin-right: 70px;
+  margin-right: 250px;
 }
 
 /* event section design */
 .event-section {
-  text-align: center;
-  height: 350px;
-  width: 770px;
   background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
@@ -100,9 +105,21 @@ a {
   );
   background-size: contain;
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 200px;
   border-radius: 16px;
 }
+
+.event-info {
+  font-family: Inter;
+  font-style: normal;
+  text-transform: capitalize;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
 .events-day {
   color: #f00;
 }
@@ -117,12 +134,6 @@ a {
   border: none;
 }
 
-.event-info {
-  font-family: Inter;
-  font-style: normal;
-  text-transform: capitalize;
-  padding: 10px;
-}
 
 /* holiday sale section */
 
