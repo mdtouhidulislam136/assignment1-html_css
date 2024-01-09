@@ -74,37 +74,34 @@ a {
   text-align: center;
   margin-top: 50px;
   color: white;
-  
 }
 
 .welcome-section img {
   width: 1130px;
 }
 
-.welcome-items{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: -300px;
-    margin-left: 290px;
-    width: 1130px;
+.welcome-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -300px;
+  margin-left: 290px;
+  width: 1130px;
 }
 
 .welcome-text {
   color: white;
   width: 50%;
   text-align: justify;
-   margin-top: -300px;
-  
+  margin-top: -300px;
 }
 
 .welcome-year {
-    margin-right: 150px;
+  margin-right: 150px;
 }
 
 .welcome-year img {
-    width: 200px;
-
+  width: 200px;
 }
 
 /* event section design */
@@ -115,6 +112,10 @@ a {
     rgba(255, 0, 0, 0) 100%
   );
   width: 1130px;
+  margin-top: 50px;
+  border-radius: 16px;
+  margin-left: 180px;
+  margin-bottom: 50px;
 }
 
 .event-info {
@@ -122,8 +123,6 @@ a {
   font-style: normal;
   text-transform: capitalize;
   padding: 10px;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -144,6 +143,9 @@ a {
 /* holiday sale section */
 
 .holiday-sale {
+  width: 1130px;
+  margin-top: 150px;
+  margin-left: 140px;
 }
 
 .holiday-sale-details {
@@ -164,59 +166,77 @@ a {
   padding: 0px 150px;
 }
 
+/* holiday img style */
+
+.holiday-img-section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 140px;
+}
+
 .holiday-sale-bg-img {
-  background-image: url(resources/Rectangle\ 1.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 350px;
-  background-position: right;
-  margin-right: 40px;
-  display: flex;
+  width: 1130px;
+  margin-top: 50px;
 }
 
-.discount-img {
-  margin-left: 380px;
-  margin-top: 150px;
-  width: 20%;
+.discount-img1-design{
+    text-align: end;
+    
 }
 
-.holiday-sale-img2 {
-  margin-right: 40px;
-  margin-left: 50px;
+.discount-img2{
+    width: 1130px;
 }
 
-.discount-img2 {
-  height: 100px;
-  width: 762px;
+.discount-img3-design{
+    display: flex;
+    margin-top: -600px;
+    margin-left: -100px;
+
+}
+
+.discount-fifty-img{
+    margin-left: -50px;
+}
+
+.discount-img4{
+    width: 700px;
+}
+
+.discount-fifty-img img{
+    width: 300px;
 }
 
 /* gift section style  */
 
-/* .gift-section {
-  margin-left: 50px;
-  margin-right: 40px;
-} */
+.gift-section {
+  width: 1130px;
+  margin-left: 100px;
+  margin-top: 80px;
+}
 
 .gift-details {
   margin-left: 50px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 .gift-title {
   color: #f00;
   font-family: Inter;
-  margin-top: 50px;
   margin-bottom: 0;
 }
 
 .gift-img {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-left: 30px;
+  margin-left: 50px;
+  justify-content: space-between;
+  gap: 30px;
+  
 }
 
 .img-size {
-  width: 200px;
-  padding: 20px;
+  width: 250px;
 }
 
 .img-size:hover {
@@ -226,14 +246,18 @@ a {
   perspective: 1000px;
 }
 
+
+
+/* news letter design */
+
 .subscription-section {
-  margin-left: 50px;
+  margin-left: 140px;
   margin-right: 40px;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
-}
-
-/* news letter design */
+  width: 1130px;
+  margin-top: 50px;
+} 
 
 .email-logo {
   width: 70px;
@@ -272,6 +296,7 @@ a {
   background-color: #070211;
   color: white;
   width: 100%;
+  margin-top: 50px;
 }
 
 .phone-website {
