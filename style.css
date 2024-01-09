@@ -93,11 +93,12 @@ a {
   color: white;
   width: 50%;
   text-align: justify;
-  margin-top: -300px;
+  margin-top: -200px;
 }
 
 .welcome-year {
   margin-right: 150px;
+  margin-top: -100px;
 }
 
 .welcome-year img {
@@ -112,7 +113,7 @@ a {
     rgba(255, 0, 0, 0) 100%
   );
   width: 1130px;
-  margin-top: 50px;
+  margin-top: 150px;
   border-radius: 16px;
   margin-left: 180px;
   margin-bottom: 50px;
@@ -138,6 +139,36 @@ a {
   border-radius: 8px;
   background: #f00;
   border: none;
+}
+
+/* extra point section design */
+
+.extra-point-section {
+  width: 1130px;
+  margin-top: 100px;
+  margin-left: 185px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-details{
+    width: 30%;
+}
+
+.offer-title{
+    color:#f00;
+}
+
+.offer-img img{
+    width: 250px;
+    padding: 10px;
+
+}
+
+.offer-img{
+    border: 15px solid red;
+    gap: 5px;
+    border-radius: 150px;
 }
 
 /* holiday sale section */
@@ -180,32 +211,30 @@ a {
   margin-top: 50px;
 }
 
-.discount-img1-design{
-    text-align: end;
-    
+.discount-img1-design {
+  text-align: end;
 }
 
-.discount-img2{
-    width: 1130px;
+.discount-img2 {
+  width: 1130px;
 }
 
-.discount-img3-design{
-    display: flex;
-    margin-top: -600px;
-    margin-left: -100px;
-
+.discount-img3-design {
+  display: flex;
+  margin-top: -600px;
+  margin-left: -100px;
 }
 
-.discount-fifty-img{
-    margin-left: -50px;
+.discount-fifty-img {
+  margin-left: -50px;
 }
 
-.discount-img4{
-    width: 700px;
+.discount-img4 {
+  width: 700px;
 }
 
-.discount-fifty-img img{
-    width: 300px;
+.discount-fifty-img img {
+  width: 300px;
 }
 
 /* gift section style  */
@@ -232,7 +261,6 @@ a {
   margin-left: 50px;
   justify-content: space-between;
   gap: 30px;
-  
 }
 
 .img-size {
@@ -246,8 +274,6 @@ a {
   perspective: 1000px;
 }
 
-
-
 /* news letter design */
 
 .subscription-section {
@@ -257,7 +283,7 @@ a {
   background: rgba(255, 0, 0, 0.05);
   width: 1130px;
   margin-top: 50px;
-} 
+}
 
 .email-logo {
   width: 70px;
