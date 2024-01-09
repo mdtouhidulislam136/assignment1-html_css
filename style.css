@@ -8,24 +8,21 @@ a {
   color: white;
 }
 
-
 /* header style */
 
-
 .header-container {
-text-align: center;
- margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.header-container img{
-width: 1130px;
+.header-container img {
+  width: 1130px;
 }
 
 .header-items {
   position: relative;
   margin-top: -300px;
   color: white;
- 
 }
 
 .header-title {
@@ -39,8 +36,8 @@ width: 1130px;
 
 /* sale section style */
 
-.sale-section{
-    margin-top: 250px;
+.sale-section {
+  margin-top: 250px;
 }
 .sale-details {
   text-align: center;
@@ -74,26 +71,40 @@ width: 1130px;
 /* welcome section */
 
 .welcome-section {
-  background-image: url(resources/Vectorrr.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-  background-position: center;
+  text-align: center;
   margin-top: 50px;
+  color: white;
+  
+}
+
+.welcome-section img {
+  width: 1130px;
+}
+
+.welcome-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -300px;
+    margin-left: 290px;
+    width: 1130px;
 }
 
 .welcome-text {
   color: white;
-  margin-left: 250px ;
   width: 50%;
+  text-align: justify;
+   margin-top: -300px;
   
 }
 
 .welcome-year {
-  margin-top: 40px;
-  margin-right: 250px;
+    margin-right: 150px;
+}
+
+.welcome-year img {
+    width: 200px;
+
 }
 
 /* event section design */
@@ -103,10 +114,7 @@ width: 1130px;
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  background-size: contain;
-  margin-top: 50px;
-  margin-left: 200px;
-  border-radius: 16px;
+  width: 1130px;
 }
 
 .event-info {
@@ -118,7 +126,6 @@ width: 1130px;
   justify-content: center;
   text-align: center;
 }
-
 
 .events-day {
   color: #f00;
@@ -133,7 +140,6 @@ width: 1130px;
   background: #f00;
   border: none;
 }
-
 
 /* holiday sale section */
 
