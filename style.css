@@ -151,24 +151,23 @@ a {
   justify-content: space-between;
 }
 
-.offer-details{
-    width: 30%;
+.offer-details {
+  width: 30%;
 }
 
-.offer-title{
-    color:#f00;
+.offer-title {
+  color: #f00;
 }
 
-.offer-img img{
-    width: 250px;
-    padding: 10px;
-
+.offer-img img {
+  width: 250px;
+  padding: 10px;
 }
 
-.offer-img{
-    border: 15px solid red;
-    gap: 5px;
-    border-radius: 150px;
+.offer-img {
+  border: 15px solid red;
+  gap: 5px;
+  border-radius: 150px;
 }
 
 /* holiday sale section */
@@ -217,6 +216,7 @@ a {
 
 .discount-img2 {
   width: 1130px;
+  margin-top: -5px;
 }
 
 .discount-img3-design {
