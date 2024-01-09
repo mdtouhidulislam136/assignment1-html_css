@@ -1,0 +1,282 @@
+/* common shared css */
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* header style */
+.header-container {
+  color: white;
+  text-align: center;
+  background-image: url(./resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+  background-position: center;
+  border-radius: 16px;
+}
+
+.header-items {
+  margin: 40px;
+  padding: 90px;
+}
+
+.header-title {
+  font-size: 20px;
+}
+
+.header-description {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* sale section style */
+
+.sale-details {
+  text-align: center;
+}
+
+.sale-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.sale-subtitle {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sale-new-year-message {
+  text-align: center;
+}
+
+.sale-img {
+  width: 600px;
+  height: 300px;
+}
+
+/* welcome section */
+
+.welcome-section {
+  background-image: url(resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: contain;
+  height: 350px;
+  background-position: center;
+  border-radius: 16px;
+  margin-top: 50px;
+}
+
+.welcome-text {
+  color: white;
+  margin: 20px 126px;
+}
+
+.welcome-year {
+  margin-top: 40px;
+  margin-right: 70px;
+}
+
+/* event section design */
+.event-section {
+  text-align: center;
+  height: 350px;
+  width: 770px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  background-size: contain;
+  margin-top: 50px;
+  margin-left: 40px;
+  border-radius: 16px;
+}
+.events-day {
+  color: #f00;
+}
+
+.btn-primary {
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+}
+
+.event-info {
+  font-family: Inter;
+  font-style: normal;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+/* holiday sale section */
+
+.holiday-sale {
+}
+
+.holiday-sale-details {
+  text-align: center;
+}
+
+.holiday-sale-title {
+  color: #f00;
+}
+
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0px 150px;
+}
+
+.holiday-sale-bg-img {
+  background-image: url(resources/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+  background-position: right;
+  margin-right: 40px;
+  display: flex;
+}
+
+.discount-img {
+  margin-left: 380px;
+  margin-top: 150px;
+  width: 20%;
+}
+
+.holiday-sale-img2 {
+  margin-right: 40px;
+  margin-left: 50px;
+}
+
+.discount-img2 {
+  height: 100px;
+  width: 762px;
+}
+
+/* gift section style  */
+
+/* .gift-section {
+  margin-left: 50px;
+  margin-right: 40px;
+} */
+
+.gift-details {
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.gift-img {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 30px;
+}
+
+.img-size {
+  width: 200px;
+  padding: 20px;
+}
+
+.img-size:hover {
+  width: 300px;
+  height: 200px;
+  transform: rotateX(180deg);
+  perspective: 1000px;
+}
+
+.subscription-section {
+  margin-left: 50px;
+  margin-right: 40px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+/* news letter design */
+
+.email-logo {
+  width: 70px;
+}
+
+.news-letter-para {
+  color: rgba(7, 2, 17, 0.6);
+  justify-content: center;
+  font-family: Inter;
+  padding: 0px 150px;
+}
+
+.email-input {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  border: none;
+  padding: 10px;
+}
+
+#subscribe-btn {
+  position: absolute;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  padding: 10px;
+  color: white;
+}
+
+.subscription-details {
+  padding: 20px;
+  text-align: center;
+}
+
+/* footer design */
+.footer {
+  background-color: #070211;
+  color: white;
+  width: 100%;
+}
+
+.phone-website {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  margin-bottom: 10px;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  border-bottom: solid 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+}
